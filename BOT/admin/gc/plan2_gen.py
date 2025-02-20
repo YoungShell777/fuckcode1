@@ -26,7 +26,7 @@ Contact Bot Owner @Reo_47 !
 Amount: {amt}\n</b>"""
         
         for _ in range(amt):
-            GC = f"GRAND-{gcgenfunc()}-{gcgenfunc()}-{gcgenfunc()}-PAA"
+            GC = f"RTX-{gcgenfunc()}-{gcgenfunc()}-{gcgenfunc()}-PAA"
             await insert_plan2(GC)
             text += f"""
 ➔ <code>{GC}</code>
@@ -34,7 +34,7 @@ Amount: {amt}\n</b>"""
 
         text += f"""
 <b>For Redeemtion 
-Type /redeem GRAND-XXXX-XXXX-XXXX-PAA</b>"""
+Type /redeem RTX-XXXX-XXXX-XXXX-PAA</b>"""
         
         await message.reply_text(text, message.id)
     except:
