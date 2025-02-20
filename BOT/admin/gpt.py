@@ -8,9 +8,6 @@ import os
 
 openai_api_key = ("OPENAI_API_KEY")  # Cargar la API key desde variables de entorno
 
-if not openai_api_key:
-    raise ValueError("⚠️ ERROR: OpenAI API Key is missing! Set the OPENAI_API_KEY environment variable.")
-
 openai_client = openai.OpenAI(api_key=openai_api_key)
 
 
