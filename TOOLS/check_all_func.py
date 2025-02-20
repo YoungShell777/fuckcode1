@@ -141,7 +141,7 @@ Type /register to Continue
             resp = """<b>
 Premium Users Required ⚠️
 
-Message: Only Premium Users are Allowed to use bot in Personal . Although You Can Use Bot Free Here https://t.me/Reo_47
+Message: Only Premium Users are Allowed to use bot in Personal . Although You Can Use Bot Free Here https://t.me/Eretro_7
 Buy Premium Plan Using /buy to Continue
 </b>"""
             await message.reply_text(resp , message_id=message.id)
@@ -155,7 +155,7 @@ Buy Premium Plan Using /buy to Continue
             resp = f"""<b>
 Unauthorized Chats ⚠️
 
-Message: Only Chats Approved By My @Reo_47 Can Only Use Me . To Get Approved Your Chats Follow The Steps .
+Message: Only Chats Approved By My @Eretro_7 Can Only Use Me . To Get Approved Your Chats Follow The Steps .
 
 Type /howgp to Know The Step
 </b>"""
