@@ -28,7 +28,7 @@ Contact Bot Owner @Eretro_7!</b>"""
             await message.reply_text(resp, message.id)
             return
 
-        paymnt_method = "CRYPTO"
+        paymnt_method = "MAMASTE"
         registration_check = await getuserinfo(user_id)
         registration_check = str(registration_check)
         if registration_check == "None":
@@ -69,12 +69,12 @@ Expiry : {validity}
 Validity: {days} Days
 Status : Paid ☑️
 Payment Method : {paymnt_method}.
-Receipt ID : MASTER-{receipt_id}
+Receipt ID : RTX-{receipt_id}
 
 This is a receipt for your plan. Save it in a Secure Place. This will help you if anything goes wrong with your plan purchases.
 
 Have a Good Day.
-- @XBRDM_BOT
+- @RETROCHKBOT
 </b>"""
         try:
             await Client.send_message(user_id, user_resp)
