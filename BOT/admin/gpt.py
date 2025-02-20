@@ -6,7 +6,7 @@ from TOOLS.check_all_func import *
 import openai
 import os
 
-openai_api_key = os.getenv("OPENAI_API_KEY")  # Cargar la API key desde variables de entorno
+openai_api_key = ("OPENAI_API_KEY")  # Cargar la API key desde variables de entorno
 
 if not openai_api_key:
     raise ValueError("⚠️ ERROR: OpenAI API Key is missing! Set the OPENAI_API_KEY environment variable.")
