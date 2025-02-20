@@ -1,1 +1,10 @@
-p.webshare.io:80:enmmwoxo-rotate:86hhdrmxz7c7
+84.33.224.239:6263:enmmwoxo:86hhdrmxz7c7
+104.252.196.231:6139:enmmwoxo:86hhdrmxz7c7
+23.236.216.171:6201:enmmwoxo:86hhdrmxz7c7
+136.0.117.232:6970:enmmwoxo:86hhdrmxz7c7
+173.0.9.149:5732:enmmwoxo:86hhdrmxz7c7
+104.238.49.6:5660:enmmwoxo:86hhdrmxz7c7
+107.173.93.181:6135:enmmwoxo:86hhdrmxz7c7
+185.48.52.70:5662:enmmwoxo:86hhdrmxz7c7
+188.68.1.175:6044:enmmwoxo:86hhdrmxz7c7
+194.38.18.190:7252:enmmwoxo:86hhdrmxz7c7
