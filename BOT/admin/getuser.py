@@ -10,7 +10,7 @@ async def cmd_add(Client, message):
         OWNER_ID    = json.loads(open("FILES/config.json", "r" , encoding="utf-8").read())["OWNER_ID"]
         if user_id not in OWNER_ID:
             resp = """<b>You Don't Have Permission To Use This Command.    
-Contact Bot Owner @Reo_47 !</b>"""
+Contact Bot Owner @Eretro_7!</b>"""
             await message.reply_text(resp, message.id)
             return
 
@@ -23,7 +23,7 @@ Contact Bot Owner @Reo_47 !</b>"""
         reg_at   = info["reg_at"]
 
         send_info = f"""<b>
-<b>{message.text.split(" ")[1]}</b> Info on Blitz ⚡
+<b>{message.text.split(" ")[1]}</b> Info on RetroChk⚡
 ━━━━━━━━━━━━━━
 ● ID: <code>{message.text.split(" ")[1]}</code>
 ● Profile Link: <a href="tg://user?id={message.text.split(" ")[1]}">Profile Link</a>
