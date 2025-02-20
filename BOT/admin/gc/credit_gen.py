@@ -37,7 +37,7 @@ async def generate_redeem_codes(client, message):
             await insert_pm(redeem_code)
             response_text += f"➔ <code>{redeem_code}</code>\n"
 
-        response_text += """<b>\nYou can redeem this code using this command: /redeem GRAND-XXXX-PAA</b>"""
+        response_text += """<b>\nYou can redeem this code using this command: /redeem RTX-XXXX-PAA</b>"""
         
         await message.reply_text(response_text, message.id)
 
