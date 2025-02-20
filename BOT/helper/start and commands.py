@@ -43,7 +43,7 @@ async def callback_command(client, message):
         WELCOME_TEXT = f"""
 <b>Hello User !
 
-Blitz  Has plenty of Commands . We Have Auth Gates , Charge Gates , Tools And Other Things .
+RetroChk⚡ Has plenty of Commands . We Have Auth Gates , Charge Gates , Tools And Other Things .
 
 Click Each of Them Below to Know Them Better .</b>
         """
@@ -73,13 +73,13 @@ Click Each of Them Below to Know Them Better .</b>
 async def cmd_start(Client, message):
     try:
         text = """<b>
-Blitz  ■□□
+RTX  ■□□
       </b>"""
         edit = await message.reply_text(text, message.id)
         await asyncio.sleep(0.5)
 
         text = """<b>
-Blitz  ■■■
+RTX  ■■■
      </b> """
         edit = await Client.edit_message_text(message.chat.id, edit.id, text)
         await asyncio.sleep(0.5)
@@ -87,7 +87,7 @@ Blitz  ■■■
         text = f"""
 <b>🌟 Hello <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>!</b>
 
-<b>Welcome aboard the Blitz! 🚀</b>
+<b>Welcome aboard the RetroChk! 🚀</b>
 
 <b>I am your go-to bot, packed with a variety of gates, tools, and commands to enhance your experience. Excited to see what I can do?</b>
 
@@ -243,7 +243,7 @@ async def callback_query(Client, CallbackQuery):
         WELCOME_TEXT = f"""
 <b>Hello User!
 
-Blitz Has plenty of Commands. We Have Auth Gates, Charge Gates, Tools, And Other Things.
+RetroChk⚡ Has plenty of Commands. We Have Auth Gates, Charge Gates, Tools, And Other Things.
 
 Click Each of Them Below to Know Them Better.</b>
     """
@@ -299,7 +299,7 @@ Click on each one below to get to know them better. .</b>
             reply_markup=InlineKeyboardMarkup(AUTH_BUTTONS))
     if CallbackQuery.data == "Auth2":
         CHARGE_TEXT = """
-🔹 Stripe Auth Gates of Blitz
+🔹 Stripe Auth Gates of RetroChk⚡
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -465,7 +465,7 @@ Total Auth Commands: 2
 
     if CallbackQuery.data == "SKBASED":
         CHARGE_TEXT = """
-🔹 Stripe Charge Gates of Blitz
+🔹 Stripe Charge Gates of RetroChk⚡
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -529,7 +529,7 @@ Total Charge Commands: 1
         )
     if CallbackQuery.data == "BRAINTREE":
         CHARGE_TEXT = """
-🔹 Braintree Charge Gates of Blitz
+🔹 Braintree Charge Gates of RetroChk⚡
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -555,7 +555,7 @@ Total Auth Commands: 1
     if CallbackQuery.data == "SHOPIFY":
         CHARGE_TEXT = """
 
-🔹 Shopify Charge Gates of Blitz
+🔹 Shopify Charge Gates of RetroChk⚡
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -620,7 +620,7 @@ Click on each one below to get to know them better..</b>
 
     if CallbackQuery.data == "SKSTOOL":
         CHARGE_TEXT = """
-🔹 SK Tools of Blitz
+🔹 SK Tools of RetroChk⚡
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -646,7 +646,7 @@ Total Auth Commands: 4
         )
     if CallbackQuery.data == "SCRAPPER":
         CHARGE_TEXT = """
-🔹 Scrapper Tools Gates of Blitz
+🔹 Scrapper Tools Gates of RetroChk⚡
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -671,7 +671,7 @@ Total Auth Commands: 3
         )
     if CallbackQuery.data == "GENARATORTOOLS":
         CHARGE_TEXT = """
-🔹 Generator Tools of Blitz
+🔹 Generator Tools of RetroChk⚡
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -695,7 +695,7 @@ Total Auth Commands: 2
         )
     if CallbackQuery.data == "BINANDOTHERS":
         CHARGE_TEXT = """
-🔹 Bin and Other Tools Of Blitz
+🔹 Bin and Other Tools Of RetroChk⚡
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
@@ -730,7 +730,7 @@ Total Auth Commands: 6
         HELPER_TEXT = f"""
 <b>Hello User!
 
-Blitz Helper.
+Retro Helper.
 
 Click on each one below to get to know them better.</b>
     """
@@ -749,13 +749,13 @@ Click on each one below to get to know them better.</b>
             reply_markup=InlineKeyboardMarkup(CHARGE_BUTTONS))
     if CallbackQuery.data == "INFO":
         CHARGE_TEXT = """
-🔹 Helper Gates of Blitz
+🔹 Helper Gates of RetroChk
 🔹 Status: ✅ Active
 
 🚀 Quick Commands Overview:
 
 👤 Account Management:
-   1. Start Bot: /start@XBRDM_BOT
+   1. Start Bot: /start@retrochkbot
    2. Register: /register
    3. User ID: /id
    4. User Info: /info
