@@ -12,7 +12,7 @@ async def cmd_getplan2(Client, message):
         if user_id not in OWNER_ID:
             resp = """<b>
 You Don't Have Permission To Use This Command.    
-Contact Bot Owner @Reo_47 !
+Contact Bot Owner @Eretro_7!
 
 </b>"""
             await message.reply_text(resp, message.id)
