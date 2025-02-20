@@ -58,7 +58,7 @@ Buy Premium Plan Using /buy to Continue
             resp = f"""<b>
 Unauthorized Chats ⚠️
 
-Message: Only Chats Approved By My @Reo_47 Can Only Use Me . To Get Approved Your Chats Follow The Steps .
+Message: Only Chats Approved By @Eretro_7 Can Only Use Me, To Get Approved Your Chats Follow The Steps.
 
 Type /howgp to Know The Step
 </b>"""
