@@ -4,8 +4,12 @@ from pyrogram import Client, filters
 from FUNC.usersdb_func import *
 from TOOLS.check_all_func import *
 import openai
+import os
 
-openai_api_key = "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"
+openai_api_key = os.getenv("OPENAI_API_KEY")  # Cargar la API key desde variables de entorno
+
+if not openai_api_key:
+    raise ValueError("⚠️ ERROR: OpenAI API Key is missing! Set the OPENAI_API_KEY environment variable.")
 
 openai_client = openai.OpenAI(api_key=openai_api_key)
 
