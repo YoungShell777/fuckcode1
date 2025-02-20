@@ -5,14 +5,14 @@ from FUNC.usersdb_func import *
 from TOOLS.check_all_func import *
 import openai
 
-openai_api_key = "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"
+openai_api_key = "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"
 
 openai_client = openai.OpenAI(api_key=openai_api_key)
 
 
 async def fetch_response(prompt):
     data = {
-        "model": "gpt-3.5-turbo",
+        "model": "gpt-4o-mini",
         "messages": [
             {"role": "user", "content": prompt}
         ]
