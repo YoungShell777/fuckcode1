@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 # Define a modern UI message for no permission
 NO_PERMISSION_MESSAGE = """<b>
 You don't have permission to use this command.
-Contact the bot owner @Reo_47!
+Contact the bot owner @Eretro_7!
 </b>"""
 
 # Define a success message header
@@ -33,7 +33,7 @@ async def generate_redeem_codes(client, message):
         response_text = REDEEM_GENERATED_HEADER
 
         for _ in range(amount):
-            redeem_code = f"GRAND-{gcgenfunc()}{gcgenfunc()}{gcgenfunc()}-PAA"
+            redeem_code = f"RTX-{gcgenfunc()}{gcgenfunc()}{gcgenfunc()}-PAA"
             await insert_pm(redeem_code)
             response_text += f"➔ <code>{redeem_code}</code>\n"
 
