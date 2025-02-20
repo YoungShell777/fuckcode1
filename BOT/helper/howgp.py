@@ -6,16 +6,17 @@ from FUNC.defs import *
 async def cmd_howgp(Client, message):
     try:
         texta = f"""<b>
-TO THIS ADD THIS BOT TO YOUR GROUP -
+PARA AÑADIR ESTE BOT A TU GRUPO -
 
-Requirements: <b>Your Group Must Have Atleast 50 Members.</b>
+Requisitos: <b>Tu grupo debe tener al menos 50 miembros.</b>
 
-Steps To Get Your Group Authorised:
-➔ Add @XBRDM_BOT To Your Group As Admin .
-➔ Copy Your Group Username or Group Invite Link .
-➔ Knock @Reo_47 And Give Him The Group Username or Group Invite Link
+Pasos para autorizar tu grupo:
+➔ Agrega a @RETROCHKBOT a tu grupo como administrador.
+➔ Copia el nombre de usuario de tu grupo o el enlace de invitación.
+➔ Contacta a @Eretro_7 y envíale el nombre de usuario o el enlace de invitación de tu grupo.
 
-Thats It . Now Once He is got online , He will Approved Your Group ✅ .
+¡Eso es todo! Una vez que esté en línea, aprobare tu grupo! ✅.
+
 </b>"""
         await message.reply_text(texta, message.id)
 
