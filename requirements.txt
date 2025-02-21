@@ -13,3 +13,5 @@ cryptography
 pytz
 openai
 pycountry
+random
+aiohttp
