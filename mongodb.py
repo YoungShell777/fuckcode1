@@ -2,7 +2,7 @@ import traceback
 import pymongo
 
 client = pymongo.MongoClient(
-        "mongodb+srv://Reohex:Reohex@reohexx.07d8r.mongodb.net/?retryWrites=true&w=majority&appName=Reohexx"
+        "mongodb+srv://edwinretro73:76giRhS3oLB8uqdC@cluster0.fwgtt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 )
 result = str(client)
