@@ -4,7 +4,7 @@ import pymongo
 # Intentar establecer la conexión
 try:
     client = pymongo.MongoClient(
-        "mongodb+srv://edwinretro73:pmroepLJXKCPe8bT@cluster0.fwgtt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        "mongodb+srv://Reohex:Reohex@reohexx.07d8r.mongodb.net/?retryWrites=true&w=majority&appName=Reohexx"
     )
     # Verificar si la conexión es exitosa
     client.admin.command('ping')
