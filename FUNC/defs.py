@@ -1,3 +1,5 @@
+import random
+import aiohttp
 import json
 from FUNC.usersdb_func import *
 from TOOLS.getbin import *
@@ -20,18 +22,40 @@ async def result_logs(fullz , gate , result):
         pass
     
 
+import random
+import aiohttp
+
 async def get_proxy_format():
-    import random
-    getproxy       = random.choice(open("FILES/proxy.txt", "r", encoding="utf-8").read().splitlines())
-    proxy_ip       = getproxy.split(":")[0]
-    proxy_port     = getproxy.split(":")[1]
-    proxy_user     = getproxy.split(":")[2]
-    proxy_password = getproxy.split(":")[3]
-    proxies = {
-        "https://": f"http://{proxy_user}:{proxy_password}@{proxy_ip}:{proxy_port}",
-        "http://": f"http://{proxy_user}:{proxy_password}@{proxy_ip}:{proxy_port}",
-    }
-    return proxies
+    try:
+        # Leer y seleccionar un proxy al azar
+        with open("FILES/proxy.txt", "r", encoding="utf-8") as file:
+            proxies_list = file.read().splitlines()
+        
+        getproxy = random.choice(proxies_list)
+        proxy_ip, proxy_port, proxy_user, proxy_password = getproxy.split(":")
+
+        proxies = {
+            "http": f"http://{proxy_user}:{proxy_password}@{proxy_ip}:{proxy_port}",
+            "https": f"http://{proxy_user}:{proxy_password}@{proxy_ip}:{proxy_port}",
+        }
+
+        # Verificar si el proxy funciona
+        async with aiohttp.ClientSession() as session:
+            async with session.get("https://httpbin.org/ip", proxy=proxies["https"], timeout=5) as response:
+                if response.status == 200:
+                    return proxies
+                else:
+                    return None
+    except Exception as e:
+        print(f"Error al verificar el proxy: {e}")
+        return None
+
+# Uso:
+# proxies = await get_proxy_format()
+# if proxies:
+#     print("Proxy funcionando correctamente:", proxies)
+# else:
+#     print("Ningún proxy válido encontrado")
 
 
 async def getmessage(message):
