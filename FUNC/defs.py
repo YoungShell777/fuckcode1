@@ -1,5 +1,3 @@
-import random
-import aiohttp
 import json
 from FUNC.usersdb_func import *
 from TOOLS.getbin import *
