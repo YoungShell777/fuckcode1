@@ -163,7 +163,7 @@ async def getallsk():
         sks.append(i["id"])
 
     if len(sks) == 0:
-        return ["sk_live_1234"]
+        return ["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"]
     else:
         return sks
 
