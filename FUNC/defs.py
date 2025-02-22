@@ -152,7 +152,7 @@ async def getsk():
     try:
         sk = random.choice(sks)
     except:
-        sk = "sk_live_1234"
+        sk = "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"
     return sk
 
 
