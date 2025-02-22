@@ -14,7 +14,7 @@ Contact Bot Owner @Eretro_7!</b>"""
             return
 
         proxy      = str(message.reply_to_message.text)
-        clear_file = open('FILES/proxy.txt', 'w',encoding="UTF-8").close()
+        clear_file = open('FILES/proxy.txt', 'r',encoding="UTF-8").close()
         with open("FILES/proxy.txt", "a",encoding="UTF-8") as f:
             f.write(proxy)
 
