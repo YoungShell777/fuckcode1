@@ -14,7 +14,7 @@ async def find_between(data, first, last):
     
 async def result_logs(fullz , gate , result):
     try:
-        with open("result_logs.txt", "a" , encoding="utf-8") as f:
+        with open("result_logs.txt", "r" , encoding="utf-8") as f:
             f.write(fullz + " - " + gate + " - " + result.text + "\n")
     except:
         pass
