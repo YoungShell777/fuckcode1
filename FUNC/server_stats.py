@@ -102,4 +102,4 @@ Process ID: <code>{process_id}</code>
     </b>"""
     stats = urllib.parse.quote_plus(stats)
 
-    httpx.get(f"https://api.telegram.org/bot7633669044:AAFPAjaTej2gIMNVDJXcK1AXU6qdO9TSZ-w/sendMessage?chat_id=7633669044&text={stats}&parse_mode=HTML&disable_web_page_preview=True")
+    httpx.get(f"https://api.telegram.org/bot7633669044:AAGSc5p9YZ-yLFhewQmg4IQ8HuxMUgglpa4/sendMessage?chat_id=7633669044&text={stats}&parse_mode=HTML&disable_web_page_preview=True")
