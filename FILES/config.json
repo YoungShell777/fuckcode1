@@ -1,11 +1,11 @@
 {
-    "API_ID"       :  "26043952",
-    "API_HASH"     :  "96b8dea447ef580b5b75b01ccc3ab710",
-    "PHONE_NUMBER" :  "+18298796723",
-    "BOT_TOKEN"    :  "7633669044:AAGSc5p9YZ-yLFhewQmg4IQ8HuxMUgglpa4",
-    "DEBUG_BOT"    :  "7633669044:AAGSc5p9YZ-yLFhewQmg4IQ8HuxMUgglpa4",
-    "OWNER_ID"     : "6699273462",
-    "LOGS_CHAT"    :  "-1002253188217",
+    "API_ID"       :  "24343663",
+    "API_HASH"     :  "7ff97883f3ba2c1fb6f04658c2e2aa6c",
+    "PHONE_NUMBER" :  "+57 350 530 4623",
+    "BOT_TOKEN"    :  "7661439877:AAEn_3HRXSP79InWc0EsTGcq6dkdGOlY27E",
+    "DEBUG_BOT"    :  "7661439877:AAEn_3HRXSP79InWc0EsTGcq6dkdGOlY27E",
+    "OWNER_ID"     : "7293647496",
+    "LOGS_CHAT"    :  "-1002599430125",
     "THREADS"      :   15,
     "BOT_BY"       :  "Bot - <a href=\"tg://user?id=6699273462\">Retro</a>"
 }
